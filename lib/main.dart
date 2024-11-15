@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:voice_navigation/screens/onboarding/onboarding.dart';
+import 'package:voice_navigation/utils/routes.dart';
 import 'package:voice_navigation/utils/themes/theme.dart';
 import 'localization/app_localization.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: NAppTheme.lightTheme,
       darkTheme: NAppTheme.darkTheme,
-      // getPages: Routes.route,
+      getPages: Routes.route,
       home: const OnBoarding(),
     );
   }

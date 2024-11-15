@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:voice_navigation/screens/home_page/home_page.dart';
 
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();
@@ -21,7 +20,7 @@ class OnBoardingController extends GetxController {
   /// Update Current Index & Jump To Next Page
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      Get.to(HomePage());
+      Get.toNamed('/home');
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);
