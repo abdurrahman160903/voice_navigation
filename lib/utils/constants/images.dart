@@ -8,6 +8,10 @@ class NImages {
   static const String speedometer = 'assets/images/main_page/speedometer.png';
   static const String streetView = 'assets/images/main_page/street_view.png';
   static const String weather = 'assets/images/main_page/weather.png';
+  static const String famousPlaces =
+      'assets/images/main_page/famous_places.png';
+  static const String sevenWonders =
+      'assets/images/main_page/seven_wonders.png';
 
   /// Near By Places Images
   static const String airport = 'assets/images/nearby_places/airport.png';

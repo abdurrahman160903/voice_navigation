@@ -13,7 +13,7 @@ class SectionHeading extends StatelessWidget {
     return Text(
       title,
       style: Theme.of(context).textTheme.headlineSmall?.apply(
-            color: Colors.black.withOpacity(0.5),
+            color: Colors.grey[600],
           ),
     );
   }

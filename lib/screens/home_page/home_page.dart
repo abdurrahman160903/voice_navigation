@@ -7,6 +7,9 @@ import 'package:voice_navigation/screens/home_page/widgets/section_heading.dart'
 import 'package:voice_navigation/utils/constants/images.dart';
 import 'package:voice_navigation/utils/device_utils.dart';
 
+import '../../common_widgets/column_card.dart';
+import '../../common_widgets/row_card.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -45,41 +48,118 @@ class HomePage extends StatelessWidget {
               SectionHeading(title: 'travel_essentials'.tr),
               SizedBox(height: DeviceUtils.screenHeight() * 0.015),
               StaggeredGrid.count(
-                crossAxisCount: 2, // 2 columns
-                mainAxisSpacing: 16,
-                crossAxisSpacing: 16,
+                crossAxisCount: 2,
+                mainAxisSpacing: 14,
+                crossAxisSpacing: 14,
                 children: [
-                  // Nearby Places (Full width)
                   StaggeredGridTile.count(
-                    crossAxisCellCount: 1, // Full width
-                    mainAxisCellCount: 1.25, // Smaller height
-                    child: _buildCard(
-                      title: 'Nearby Places',
-                      subtitle: 'Explore Around You.',
-                      imagePath: 'assets/images/main_page/nearby_places.png',
-                      backgroundColor: Colors.orange.withOpacity(0.1),
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 1,
+                    child: ColumnCard(
+                      title: 'nearby_places'.tr,
+                      subtitle: 'nearby_places_title'.tr,
+                      imagePath: NImages.nearByPlaces,
+                      onTap: () {},
                     ),
                   ),
-                  // Speedometer (Half width with row layout)
                   StaggeredGridTile.count(
-                    crossAxisCellCount: 1, // Half width
-                    mainAxisCellCount: 1, // Smaller size
-                    child: _buildRowCard(
-                      title: 'Speedometer',
-                      subtitle: 'Gauge Your Drive.',
-                      imagePath: 'assets/images/main_page/speedometer.png',
-                      backgroundColor: Colors.green.withOpacity(0.1),
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'speedometer'.tr,
+                      subtitle: 'speedometer_title'.tr,
+                      imagePath: NImages.speedometer,
+                      onTap: () {},
                     ),
                   ),
-                  // Weather (Half width)
                   StaggeredGridTile.count(
-                    crossAxisCellCount: 1, // Half width
-                    mainAxisCellCount: 1, // Smaller size
-                    child: _buildRowCard(
-                      title: 'Weather',
-                      subtitle: 'Sun, Rain, Shine.',
-                      imagePath: 'assets/images/main_page/weather.png',
-                      backgroundColor: Colors.blue.withOpacity(0.1),
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'weather'.tr,
+                      subtitle: 'weather_title'.tr,
+                      imagePath: NImages.weather,
+                      onTap: () {},
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              SectionHeading(title: 'navigation_tools'.tr),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              StaggeredGrid.count(
+                crossAxisCount: 2,
+                mainAxisSpacing: 14,
+                crossAxisSpacing: 14,
+                children: [
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'altimeter'.tr,
+                      subtitle: 'altimeter_title'.tr,
+                      imagePath: NImages.onBoarding2,
+                      onTap: () {},
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'compass'.tr,
+                      subtitle: 'compass_title'.tr,
+                      imagePath: NImages.compass,
+                      onTap: () {},
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'my_location'.tr,
+                      subtitle: 'my_location_title'.tr,
+                      imagePath: NImages.myLocation,
+                      onTap: () {},
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'street_view'.tr,
+                      subtitle: 'street_view_title'.tr,
+                      imagePath: NImages.streetView,
+                      onTap: () {},
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              SectionHeading(title: 'discovery_exploration'.tr),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              StaggeredGrid.count(
+                crossAxisCount: 2,
+                mainAxisSpacing: 14,
+                crossAxisSpacing: 14,
+                children: [
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'famous_places'.tr,
+                      subtitle: 'famous_places_title'.tr,
+                      imagePath: NImages.famousPlaces,
+                      onTap: () {},
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'seven_wonders'.tr,
+                      subtitle: 'seven_wonders_title'.tr,
+                      imagePath: NImages.sevenWonders,
+                      onTap: () {},
                     ),
                   ),
                 ],
@@ -90,85 +170,4 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-}
-
-Widget _buildRowCard({
-  required String title,
-  required String subtitle,
-  required String imagePath,
-  required Color backgroundColor,
-}) {
-  return Container(
-    padding: EdgeInsets.all(12),
-    decoration: BoxDecoration(
-      color: backgroundColor,
-      borderRadius: BorderRadius.circular(12),
-    ),
-    child: Row(
-      children: [
-        Image.asset(imagePath, height: 50),
-        SizedBox(width: 12),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              title,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 14,
-              ),
-            ),
-            SizedBox(height: 4),
-            Text(
-              subtitle,
-              style: TextStyle(
-                color: Colors.grey[600],
-                fontSize: 12,
-              ),
-            ),
-          ],
-        ),
-      ],
-    ),
-  );
-}
-
-Widget _buildCard({
-  required String title,
-  required String subtitle,
-  required String imagePath,
-  required Color backgroundColor,
-}) {
-  return Container(
-    padding: EdgeInsets.all(16),
-    decoration: BoxDecoration(
-      color: backgroundColor,
-      borderRadius: BorderRadius.circular(12),
-    ),
-    child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Image.asset(imagePath, height: 60),
-        SizedBox(height: 12),
-        Text(
-          title,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 16,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        SizedBox(height: 8),
-        Text(
-          subtitle,
-          style: TextStyle(
-            color: Colors.grey[600],
-            fontSize: 12,
-          ),
-          textAlign: TextAlign.center,
-        ),
-      ],
-    ),
-  );
 }
