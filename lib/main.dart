@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:voice_navigation/screens/home_page/home_page.dart';
+import 'package:voice_navigation/screens/settings/settings_page.dart';
 import 'package:voice_navigation/utils/routes.dart';
 import 'package:voice_navigation/utils/themes/theme.dart';
 import 'localization/app_localization.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: NAppTheme.lightTheme,
       darkTheme: NAppTheme.darkTheme,
       getPages: Routes.route,
-      home: const HomePage(),
+      home: const SettingsPage(),
     );
   }
 }

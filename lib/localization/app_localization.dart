@@ -40,6 +40,7 @@ class AppTranslations extends Translations {
           'famous_places_title': 'Famous Sites \nAwait.',
           'seven_wonders': 'Seven Wonders',
           'seven_wonders_title': 'Discover the \nWonders.',
+          'settings': 'Settings',
         },
         // Arabic translations
         'ar_SA': {
