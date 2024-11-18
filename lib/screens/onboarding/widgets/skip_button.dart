@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:voice_navigation/controllers/onboarding_controller.dart';
 
 import '../../../utils/device_utils.dart';

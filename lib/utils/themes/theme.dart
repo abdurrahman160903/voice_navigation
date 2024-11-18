@@ -3,7 +3,6 @@ import 'package:voice_navigation/utils/themes/appbar_theme.dart';
 import 'package:voice_navigation/utils/themes/searchbar_theme.dart';
 import 'package:voice_navigation/utils/themes/text_theme.dart';
 import 'package:voice_navigation/utils/themes/elevated_button_theme.dart';
-import 'package:voice_navigation/utils/themes/toggle_buttons_theme.dart';
 import 'listtile_theme.dart';
 
 class NAppTheme {
