@@ -41,6 +41,13 @@ class AppTranslations extends Translations {
           'seven_wonders': 'Seven Wonders',
           'seven_wonders_title': 'Discover the \nWonders.',
           'settings': 'Settings',
+          'general': 'General',
+          'language': 'Language',
+          'themes': 'Themes',
+          'about': 'About',
+          'privacy_policy': 'Privacy Policy',
+          'rate_us': 'Rate Us',
+          'share': 'Share',
         },
         // Arabic translations
         'ar_SA': {

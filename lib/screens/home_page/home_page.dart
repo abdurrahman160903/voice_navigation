@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
             style: Theme.of(context).textTheme.headlineMedium),
         actionIcon: [
           IconButton(
-            onPressed: () {},
+            onPressed: () => Get.toNamed('/settings'),
             icon: Icon(Icons.settings),
             iconSize: 32.0,
           ),

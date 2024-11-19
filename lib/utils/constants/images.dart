@@ -88,4 +88,13 @@ class NImages {
   static const String onBoarding1 = 'assets/images/onboarding/onboarding1.png';
   static const String onBoarding2 = 'assets/images/onboarding/onboarding2.png';
   static const String onBoarding3 = 'assets/images/onboarding/onboarding3.png';
+
+  /// Setting Icons
+  static const String language = 'assets/icons/language.png';
+  static const String theme = 'assets/icons/theme.png';
+  static const String share = 'assets/icons/share.png';
+  static const String rateUs = 'assets/icons/rate_us.png';
+  static const String privacy = 'assets/icons/privacy.png';
+  static const String moon = 'assets/icons/moon.png';
+  static const String light = 'assets/icons/light.png';
 }
