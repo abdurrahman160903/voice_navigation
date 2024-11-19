@@ -18,7 +18,7 @@ class ColumnCard extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        padding: EdgeInsets.all(16),
+        padding: EdgeInsets.all(14),
         decoration: BoxDecoration(
           color: DeviceUtils.isDarkMode(context)
               ? Colors.white.withOpacity(0.1)
