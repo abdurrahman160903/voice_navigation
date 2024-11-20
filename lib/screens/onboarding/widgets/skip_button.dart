@@ -16,7 +16,8 @@ class SkipButton extends StatelessWidget {
               right: 24,
               child: TextButton(
                 onPressed: () => controller.skipPage(),
-                child: Text('Skip'),
+                child:
+                    Text('Skip', style: Theme.of(context).textTheme.bodySmall),
               ),
             )
           : SizedBox.shrink();
