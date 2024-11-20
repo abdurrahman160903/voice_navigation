@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title_key": "airport",
+    "image": "assets/images/nearby_places/airports.png"
+  },
+  {
+    "id": 2,
+    "title_key": "aquarium",
+    "image": "assets/images/nearby_places/aquariums.png"
+  },
+  {
+    "id": 3,
+    "title_key": "art_gallery",
+    "image": "assets/images/nearby_places/art_gallery.png"
+  },
+  {
+    "id": 4,
+    "title_key": "atm",
+    "image": "assets/images/nearby_places/atm.png"
+  },
+  {
+    "id": 5,
+    "title_key": "automotive",
+    "image": "assets/images/nearby_places/automotive.png"
+  },
+  {
+    "id": 6,
+    "title_key": "bakery",
+    "image": "assets/images/nearby_places/bakery.png"
+  },
+  {
+    "id": 7,
+    "title_key": "bank",
+    "image": "assets/images/nearby_places/bank.png"
+  },
+  {
+    "id": 8,
+    "title_key": "bar",
+    "image": "assets/images/nearby_places/bar.png"
+  },
+  {
+    "id": 9,
+    "title_key": "bicycle_store",
+    "image": "assets/images/nearby_places/bicycle_store.png"
+  },
+  {
+    "id": 10,
+    "title_key": "book_store",
+    "image": "assets/images/nearby_places/book_store.png"
+  },
+  {
+    "id": 11,
+    "title_key": "bowling",
+    "image": "assets/images/nearby_places/bowling.png"
+  },
+  {
+    "id": 12,
+    "title_key": "bus_station",
+    "image": "assets/images/nearby_places/bus_station.png"
+  },
+  {
+    "id": 13,
+    "title_key": "cafeteria",
+    "image": "assets/images/nearby_places/cafeteria.png"
+  },
+  {
+    "id": 14,
+    "title_key": "car_wash",
+    "image": "assets/images/nearby_places/car_wash.png"
+  },
+  {
+    "id": 15,
+    "title_key": "cemetery",
+    "image": "assets/images/nearby_places/cemetery.png"
+  },
+  {
+    "id": 16,
+    "title_key": "church",
+    "image": "assets/images/nearby_places/church.png"
+    },
+    {
+    "id": 17,
+    "title_key": "city_hall",
+    "image": "assets/images/nearby_places/city_hall.png"
+    },
+    {
+    "id": 18,
+    "title_key": "clothing_store",
+    "image": "assets/images/nearby_places/clothing_store.png"
+    },
+    {
+    "id": 19,
+    "title_key": "college_university",
+    "image": "assets/images/nearby_places/college_university.png"
+    },
+    {
+    "id": 20,
+    "title_key": "court_house",
+    "image": "assets/images/nearby_places/court_house.png"
+    },
+    {
+    "id": 21,
+    "title_key": "dentist",
+      "image": "assets/images/nearby_places/dentist.png"
+    },
+  {
+    "id": 22,
+    "title_key": "doctor",
+    "image": "assets/images/nearby_places/doctor.png"
+    },
+    {
+    "id": 23,
+    "title_key": "department",
+    "image": "assets/images/nearby_places/department.png"
+    },
+    {
+    "id": 24,
+    "title_key": "electrician",
+    "image": "assets/images/nearby_places/electrician.png"
+    },
+    {
+    "id": 25,
+    "title_key": "electronic_store",
+    "image": "assets/images/nearby_places/electronic_store.png"
+    },
+    {
+    "id": 26,
+    "title_key": "embassy",
+    "image": "assets/images/nearby_places/embassy.png"
+    },
+    {
+    "id": 27,
+    "title_key": "furniture_store",
+    "image": "assets/images/nearby_places/furniture_store.png"
+    },
+    {
+    "id": 28,
+    "title_key": "gas_station",
+    "image": "assets/images/nearby_places/gas_station.png"
+    },
+    {
+    "id": 29,
+    "title_key": "gym",
+    "image": "assets/images/nearby_places/gym.png"
+    },
+    {
+    "id": 30,
+    "title_key": "hardware_store",
+    "image": "assets/images/nearby_places/hardware_store.png"
+    },
+    {
+    "id": 31,
+    "title_key": "hospital",
+    "image": "assets/images/nearby_places/hospital.png"
+    },
+    {
+    "id": 32,
+    "title_key": "hotel",
+    "image": "assets/images/nearby_places/hotel.png"
+    },
+    {
+    "id": 33,
+    "title_key": "jewelry_store",
+    "image": "assets/images/nearby_places/jewelry_store.png"
+    },
+    {
+    "id": 34,
+    "title_key": "laundry",
+    "image": "assets/images/nearby_places/laundry.png"
+    },
+    {
+    "id": 35,
+    "title_key": "lawyer",
+    "image": "assets/images/nearby_places/lawyer.png"
+    },
+    {
+    "id": 36,
+    "title_key": "library",
+    "image": "assets/images/nearby_places/library.png"
+    },
+    {
+    "id": 37,
+    "title_key": "mosque",
+    "image": "assets/images/nearby_places/mosque.png"
+    },
+    {
+    "id": 38,
+    "title_key": "museum",
+    "image": "assets/images/nearby_places/museum.png"
+    },
+    {
+    "id": 39,
+    "title_key": "painter",
+    "image": "assets/images/nearby_places/painter.png"
+    },
+    {
+    "id": 40,
+    "title_key": "park",
+    "image": "assets/images/nearby_places/park.png"
+    },
+    {
+    "id": 41,
+    "title_key": "parking",
+    "image": "assets/images/nearby_places/parking.png"
+    },
+    {
+    "id": 42,
+    "title_key": "pharmacy",
+    "image": "assets/images/nearby_places/pharmacy.png"
+    },
+    {
+    "id": 43,
+    "title_key": "pet_store",
+    "image": "assets/images/nearby_places/pet_store.png"
+    },
+    {
+    "id": 44,
+    "title_key": "plumber",
+    "image": "assets/images/nearby_places/plumber.png"
+    },
+    {
+    "id": 45,
+    "title_key": "police_station",
+    "image": "assets/images/nearby_places/police_station.png"
+    },
+    {
+    "id": 46,
+    "title_key": "post_office",
+    "image": "assets/images/nearby_places/post_office.png"
+    },
+    {
+    "id": 47,
+    "title_key": "real_estate",
+    "image": "assets/images/nearby_places/real_estate.png"
+    },
+    {
+    "id": 48,
+    "title_key": "restaurant",
+    "image": "assets/images/nearby_places/restaurant.png"
+    },
+    {
+    "id": 49,
+    "title_key": "school",
+    "image": "assets/images/nearby_places/school.png"
+    },
+    {
+    "id": 50,
+    "title_key": "shopping_mall",
+    "image": "assets/images/nearby_places/shopping_mall.png"
+    },
+    {
+    "id": 51,
+    "title_key": "spa",
+    "image": "assets/images/nearby_places/spa.png"
+    },
+    {
+    "id": 52,
+    "title_key": "stadium",
+    "image": "assets/images/nearby_places/stadium.png"
+    },
+    {
+    "id": 53,
+    "title_key": "subway_station",
+    "image": "assets/images/nearby_places/subway_station.png"
+    },
+    {
+    "id": 54,
+    "title_key": "taxi_stand",
+    "image": "assets/images/nearby_places/taxi_stand.png"
+    },
+    {
+    "id": 55,
+    "title_key": "travel_agency",
+    "image": "assets/images/nearby_places/travel_agency.png"
+    },
+    {
+    "id": 56,
+    "title_key": "zoo",
+    "image": "assets/images/nearby_places/zoo.png"
+  }
+]
