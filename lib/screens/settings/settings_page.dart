@@ -32,6 +32,7 @@ class _SettingsPageState extends State<SettingsPage> {
               'general'.tr,
               style: Theme.of(context).textTheme.headlineMedium?.apply(
                     color: Color(0xff09C878),
+                    fontWeightDelta: -2,
                   ),
             ),
             SizedBox(height: DeviceUtils.screenHeight() * 0.015),
@@ -92,6 +93,7 @@ class _SettingsPageState extends State<SettingsPage> {
               'about'.tr,
               style: Theme.of(context).textTheme.headlineMedium?.apply(
                     color: Color(0xff09C878),
+                    fontWeightDelta: -2,
                   ),
             ),
             SizedBox(height: DeviceUtils.screenHeight() * 0.015),

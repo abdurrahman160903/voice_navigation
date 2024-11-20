@@ -15,6 +15,7 @@ class AppTranslations extends Translations {
           'onboarding_title3': 'Stay Ahead of the Weather',
           'onboarding_subtitle3':
               'Get the latest weather updates for your location. Plan your day with confidence.',
+          'skip': 'Skip',
           'voice_gps_navigator': 'Voice GPS Navigator',
           'route_finder': 'Route Finder',
           'find_route_title': 'Find route to your destination.',
@@ -61,6 +62,7 @@ class AppTranslations extends Translations {
           'onboarding_title3': 'ابقى على اطلاع بالطقس',
           'onboarding_subtitle3':
               'احصل على آخر تحديثات الطقس لموقعك. خطط ليومك بثقة.',
+          'skip': 'تخطى',
           'voice_gps_navigator': 'ملاح الصوت GPS',
           'route_finder': 'العثور على الطريق',
           'find_route_title': 'العثور على الطريق إلى وجهتك.',

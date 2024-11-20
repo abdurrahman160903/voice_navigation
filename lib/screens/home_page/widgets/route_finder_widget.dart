@@ -54,21 +54,23 @@ class RouteFinderWidget extends StatelessWidget {
                       ),
                 ),
                 SizedBox(height: DeviceUtils.screenHeight() * 0.012),
-                Container(
-                  margin: EdgeInsets.symmetric(
-                      horizontal: DeviceUtils.screenWidth() * 0.05),
-                  padding: EdgeInsets.symmetric(
-                      horizontal: DeviceUtils.screenWidth() * 0.12,
-                      vertical: DeviceUtils.screenHeight() * 0.01),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(18),
-                  ),
-                  child: Text(
-                    buttonText,
-                    style: Theme.of(context).textTheme.titleLarge?.apply(
-                          color: Colors.black,
-                        ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 12.0),
+                  child: Container(
+                    padding: EdgeInsets.symmetric(
+                        horizontal: DeviceUtils.screenWidth() * 0.1,
+                        vertical: DeviceUtils.screenHeight() * 0.01),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(18),
+                    ),
+                    child: Text(
+                      buttonText,
+                      style: Theme.of(context).textTheme.titleLarge?.apply(
+                            color: Colors.black,
+                          ),
+                      textAlign: TextAlign.center,
+                    ),
                   ),
                 )
               ],

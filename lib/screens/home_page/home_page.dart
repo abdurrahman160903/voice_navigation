@@ -19,7 +19,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBarWidget(
         showBackButton: false,
         text: Text('voice_gps_navigator'.tr,
-            style: Theme.of(context).textTheme.headlineMedium),
+            style: Theme.of(context).textTheme.headlineMedium?.apply(
+                  fontSizeDelta: -2,
+                )),
         actionIcon: [
           IconButton(
             onPressed: () => Get.toNamed('/settings'),
