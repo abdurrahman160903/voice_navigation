@@ -56,7 +56,7 @@ class RouteFinderWidget extends StatelessWidget {
                 SizedBox(height: DeviceUtils.screenHeight() * 0.012),
                 Container(
                   margin: EdgeInsets.symmetric(
-                      horizontal: DeviceUtils.screenWidth() * 0.01),
+                      horizontal: DeviceUtils.screenWidth() * 0.05),
                   padding: EdgeInsets.symmetric(
                       horizontal: DeviceUtils.screenWidth() * 0.12,
                       vertical: DeviceUtils.screenHeight() * 0.01),
