@@ -1,11 +1,11 @@
-class NearbyPlaces {
+class NearbyPlacesModel {
   int? id;
   String? titleKey;
   String? image;
 
-  NearbyPlaces({this.id, this.titleKey, this.image});
+  NearbyPlacesModel({this.id, this.titleKey, this.image});
 
-  NearbyPlaces.fromJson(Map<String, dynamic> json) {
+  NearbyPlacesModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     titleKey = json['title_key'];
     image = json['image'];

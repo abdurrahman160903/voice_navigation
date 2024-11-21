@@ -3,6 +3,7 @@
 import 'package:get/get.dart';
 import 'package:voice_navigation/screens/language_selection/language_page.dart';
 import '../screens/home_page/home_page.dart';
+import '../screens/nearby_places_page/nearby_places_page.dart';
 import '../screens/onboarding/onboarding.dart';
 import '../screens/settings/settings_page.dart';
 
@@ -25,6 +26,10 @@ class Routes {
     GetPage(
       name: '/settings',
       page: () => const SettingsPage(),
+    ),
+    GetPage(
+      name: '/nearbyPlaces',
+      page: () => const NearbyPlacesPage(),
     ),
   ];
 }

@@ -26,11 +26,11 @@ class MyApp extends StatelessWidget {
       theme: NAppTheme.lightTheme,
       darkTheme: NAppTheme.darkTheme,
       getPages: Routes.route,
-      // home: LanguagePage(
-      //   showBackButton: false,
-      //   navigateToOnboarding: true,
-      // ),
-      home: NearbyPlacesPage(),
+      home: LanguagePage(
+        showBackButton: false,
+        navigateToOnboarding: true,
+      ),
+      // home: NearbyPlacesPage(),
     );
   }
 }

@@ -7,7 +7,7 @@
   {
     "id": 2,
     "title_key": "aquarium",
-    "image": "assets/images/nearby_places/aquariums.png"
+    "image": "assets/images/nearby_places/aquarium.png"
   },
   {
     "id": 3,
@@ -262,7 +262,7 @@
     {
     "id": 53,
     "title_key": "subway_station",
-    "image": "assets/images/nearby_places/subway_station.png"
+    "image": "assets/images/nearby_places/subway_stations.png"
     },
     {
     "id": 54,

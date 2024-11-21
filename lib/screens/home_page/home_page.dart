@@ -61,7 +61,9 @@ class HomePage extends StatelessWidget {
                       title: 'nearby_places'.tr,
                       subtitle: 'nearby_places_title'.tr,
                       imagePath: NImages.nearByPlaces,
-                      onTap: () {},
+                      onTap: () {
+                        Get.toNamed('/nearbyPlaces');
+                      },
                     ),
                   ),
                   StaggeredGridTile.count(
