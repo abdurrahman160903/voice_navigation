@@ -12,6 +12,8 @@ class NImages {
       'assets/images/main_page/famous_places.png';
   static const String sevenWonders =
       'assets/images/main_page/seven_wonders.png';
+  static const String liveTraffic = 'assets/images/main_page/live_traffic.png';
+  static const String worldClock = 'assets/images/main_page/world_clock.png';
 
   /// Near By Places Images
   static const String airport = 'assets/images/nearby_places/airport.png';

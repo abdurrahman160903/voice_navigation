@@ -36,6 +36,11 @@ class AppTranslations extends Translations {
           'my_location_title': 'Find Your Way.',
           'street_view': 'Street View',
           'street_view_title': 'Explore the \nStreets.',
+          'real_time_tools': 'Real Time Tools',
+          'live_traffic': 'Live Traffic',
+          'live_traffic_title': 'Avoid Traffic \nJams.',
+          'world_clock': 'World Clock',
+          'world_clock_title': 'Stay on Time.',
           'discovery_exploration': 'Discovery & Exploration',
           'famous_places': 'Famous Places',
           'famous_places_title': 'Famous Sites \nAwait.',
@@ -75,7 +80,7 @@ class AppTranslations extends Translations {
           'electrician': 'Electrician',
           'electronic_store': 'Electronic Store',
           'embassy': 'Embassy',
-          'furtniture_store': 'Furniture Store',
+          'furniture_store': 'Furniture Store',
           'gas_station': 'Gas Station',
           'gym': 'Gym',
           'hardware_store': 'Hardware Store',
@@ -105,6 +110,7 @@ class AppTranslations extends Translations {
           'taxi_stand': 'Taxi Stand',
           'travel_agency': 'Travel Agency',
           'zoo': 'Zoo',
+          'where_to': 'Where to?',
         },
         // Arabic translations
         'ar_SA': {
@@ -178,7 +184,7 @@ class AppTranslations extends Translations {
           'electrician': 'كهربائي',
           'electronic_store': 'متجر إلكترونيات',
           'embassy': 'سفارة',
-          'furtniture_store': 'متجر الأثاث',
+          'furniture_store': 'متجر الأثاث',
           'gas_station': 'محطة وقود',
           'gym': 'نادي رياضي',
           'hardware_store': 'محل الأدوات',
@@ -208,6 +214,7 @@ class AppTranslations extends Translations {
           'taxi_stand': 'محطة سيارات أجرة',
           'travel_agency': 'وكالة سفر',
           'zoo': 'حديقة حيوان',
+          'where_to': 'إلى أين؟',
         },
         // German translations
         'de_DE': {

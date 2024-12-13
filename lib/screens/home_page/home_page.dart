@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
             children: [
               /// Route Finder Widget
               RouteFinderWidget(
-                onTap: () {},
+                onTap: () => Get.toNamed('/routeFinder'),
                 image: AssetImage(NImages.routeFinder),
                 title: 'route_finder'.tr,
                 subTitle: 'find_route_title'.tr,
@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget {
                       title: 'speedometer'.tr,
                       subtitle: 'speedometer_title'.tr,
                       imagePath: NImages.speedometer,
-                      onTap: () {},
+                      onTap: () => Get.toNamed('/speedometer'),
                     ),
                   ),
                   StaggeredGridTile.count(
@@ -133,6 +133,36 @@ class HomePage extends StatelessWidget {
                       title: 'street_view'.tr,
                       subtitle: 'street_view_title'.tr,
                       imagePath: NImages.streetView,
+                      onTap: () {},
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              SectionHeading(title: 'real_time_tools'.tr),
+              SizedBox(height: DeviceUtils.screenHeight() * 0.015),
+              StaggeredGrid.count(
+                crossAxisCount: 2,
+                mainAxisSpacing: 14,
+                crossAxisSpacing: 14,
+                children: [
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'live_traffic'.tr,
+                      subtitle: 'live_traffic_title'.tr,
+                      imagePath: NImages.liveTraffic,
+                      onTap: () {},
+                    ),
+                  ),
+                  StaggeredGridTile.count(
+                    crossAxisCellCount: 1,
+                    mainAxisCellCount: 0.5,
+                    child: RowCard(
+                      title: 'world_clock'.tr,
+                      subtitle: 'world_clock_title'.tr,
+                      imagePath: NImages.worldClock,
                       onTap: () {},
                     ),
                   ),
